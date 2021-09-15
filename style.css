@@ -2,6 +2,7 @@
     position: relative;
     display: flex;
     width: max-content;
+    margin: 0 auto;
 }
 
 .mark_container_shadow {
@@ -42,9 +43,15 @@
 } 
 
 .control {
-    margin: 10px 0;
+    margin: 10px auto;
+    width: max-content;
 }
 
 p {
     color: red;
+}
+
+#error {
+    margin: 0 auto;
+    width: max-content;
 }
